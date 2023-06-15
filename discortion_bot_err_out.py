@@ -22,6 +22,8 @@ def set_handler():
 
     # get save dir
     save_dir = '/var/log/notion_api'
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
     save_dir_name =  os.path.join(save_dir, save_file_name)
 
     # set logger level
