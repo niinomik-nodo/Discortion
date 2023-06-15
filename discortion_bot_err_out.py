@@ -75,12 +75,12 @@ def get_message(message):
 
 def main():
     # Discord_Token
-    # TOKEN = os.environ['DISCORD_KEY']
-    TOKEN = 'MTA5ODEwNDI1OTkyNjU3MzA3Ng.G7pCDo.e16s9QEh33C6ELIvdE4JGBRtbTrv1zpZNze7MM'
+    TOKEN = os.environ['DISCORD_KEY']
+    # TOKEN = 'MTA5ODEwNDI1OTkyNjU3MzA3Ng.G7pCDo.e16s9QEh33C6ELIvdE4JGBRtbTrv1zpZNze7MM'
 
     # Notion_token
-    # NOTION_TOKEN = os.environ['NOTION_KEY']
-    NOTION_TOKEN = 'secret_013tQKTmEmdOOWcBgcPBTKNN3wAOzgQhTSkN2t63M2U'
+    NOTION_TOKEN = os.environ['NOTION_KEY']
+    # NOTION_TOKEN = 'secret_013tQKTmEmdOOWcBgcPBTKNN3wAOzgQhTSkN2t63M2U'
 
     # Initializing Notion Client
     notion = Client(auth=NOTION_TOKEN)
